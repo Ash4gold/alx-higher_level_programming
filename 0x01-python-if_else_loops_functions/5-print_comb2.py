@@ -1,18 +1,4 @@
-#include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-char c;
-
-for (c = '0'; c <= '9'; c++)
-
-putchar(c);
-
-putchar('\n');
-return (0);
-}
+#!/usr/bin/python3
+for i in range(0, 99):
+    print("{:02d}".format(i), end=', ')
+print("{:02d}".format(i + 1))
